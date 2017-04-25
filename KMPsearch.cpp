@@ -1,6 +1,6 @@
 
 
-///the time complexity  of this algorithm is O(n+m)
+/*the time complexity  of this algorithm is O(n+m)
 ///prints  staring index of string a in string s
 //INPUT
 abdabcabc
@@ -8,7 +8,7 @@ abc
 output
 3
 6
-
+*/
 
 void preprocess()
 {
