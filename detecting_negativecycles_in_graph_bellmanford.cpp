@@ -4,7 +4,7 @@ P.GOPIKRISHNA, KLUNIVERSITY
 Problem link
 https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=499
 
-Detecting cycles in a graph BELLMAN FORD ALGORITHM :)
+Detecting negativecycles in a graph BELLMAN FORD ALGORITHM :)
 TIME COMPLEXITY :O(N*M)
 
 */
@@ -51,17 +51,17 @@ using namespace std;
                 {
                      if(distance[v[i][0]]+v[i][2]<distance[v[i][1]])
                      {
-                         flag=1;   ////////////////////CYCLES FOUND
+                         flag=1;   ////////////////////negativecyclefound
                      }
                 }
                 
                 if(flag==0)
                 {
-                    cout<<"not possible"<<endl;//NO cycles
+                    cout<<"not possible"<<endl;
                 }
                 else
                 {
-                    cout<<"possible"<<endl;//cycle found
+                    cout<<"possible"<<endl;//negativecycle found
                 }
                 
                 
